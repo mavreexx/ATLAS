@@ -1,0 +1,54 @@
+{
+  "name": "@kbve/meme.sh",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "sync": "astro sync",
+    "ham": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/image": "^0.18.0",
+    "@astrojs/mdx": "^4.3.0",
+    "@astrojs/partytown": "^2.1.4",
+    "@astrojs/prefetch": "^0.4.1",
+    "@astrojs/react": "4.3.0",
+    "@astrojs/sitemap": "^3.4.1",
+    "@astrojs/svelte": "^7.1.0",
+    "@astrojs/tailwind": "^6.0.2",
+    "@nanostores/persistent": "^0.9.1",
+    "@nanostores/react": "^0.7.1",
+    "@react-three/drei": "9.14.3",
+    "@react-three/fiber": "8.0.26",
+    "@react-three/postprocessing": "2.4.4",
+    "@supabase/supabase-js": "^2.50.2",
+    "@tailwindcss/typography": "^0.5.9",
+    "@tailwindcss/vite": "^4.1.11",
+    "astro": "^5.10.1",
+    "clsx": "^2.1.1",
+    "flowbite": "^1.8.1",
+    "flowbite-react": "^0.5.0",
+    "flowbite-svelte": "^0.44.2",
+    "nanostores": "^1.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "svelte": "^5.34.8",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.11",
+    "three": "0.142",
+    "vite": "^7.0.0"
+  },
+  "type": "module",
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "@tailwindcss/oxide"
+    ],
+    "onlyBuiltDependencies": [
+      "@tailwindcss/oxide"
+    ]
+  }
+}
